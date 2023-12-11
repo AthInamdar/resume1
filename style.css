@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.title h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-con {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 60vh;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vh;
+    width: 18vh;
+    background-color: blanchedalmond;
+    border-radius: 2rem;
+    border: none;
+    font-size: 4rem;
+    color: brown;
+}
+
+.reset-btn {
+    display: flex;
+    justify-content: center;
+}
+.reset-btn button {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: rgb(53, 53, 53);
+    color: aqua;
+}
+
+.result {
+    height: 5vh;
+    text-align: center;
+    font-size: 2rem;
+    transition-duration: 4s;
+}
