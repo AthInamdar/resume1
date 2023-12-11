@@ -48,6 +48,7 @@ let cheakwinner=()=>{
                 b1.style.backgroundColor ="red";
                 b2.style.backgroundColor ="red";
                 b3.style.backgroundColor ="red";
+
             }
         }
     }
@@ -65,5 +66,6 @@ resetbtn.addEventListener("click", () => {
         box.innerText="";
         box.disabled=false;
         box.style.backgroundColor="blanchedalmond";
+        result.innerText="";
     }
 })
