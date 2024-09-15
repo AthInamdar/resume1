@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: cadetblue;
+    background-color: rgb(146, 209, 132);
 }
 
 .title h1 {
@@ -41,7 +41,7 @@ body {
 .box {
     height: 18vh;
     width: 18vh;
-    background-color: blanchedalmond;
+    background-color: rgb(106, 125, 171);
     border-radius: 2rem;
     border: none;
     font-size: 4rem;
